@@ -428,7 +428,8 @@ img {
   }
   
   .team-boxed .item img {
-    max-width:160px;
+    max-width:64px;
+    max-height: 64px;
   }
   
   .team-boxed .social {
