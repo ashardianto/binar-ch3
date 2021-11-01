@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* BODY */
+
 body {
     font-size: 18px;
 }
@@ -11,6 +13,8 @@ body {
 img {
     width: 100%;
 }
+
+/* MAIN PAGE */
 
 .banner-image {
     background-image: url(./assets/main-bg.jpg);
@@ -167,6 +171,8 @@ img {
 	}
 }
 
+/* ALL MEDIA QUERIES */
+
 @media (max-width: 768px) {
 
   .requirements-systems {
@@ -278,6 +284,8 @@ img {
   }
 }
 
+/* HEADING & SUB */
+
 .heading {
     font-size: 54px;
     font-weight: 600;
@@ -297,10 +305,14 @@ img {
     margin-top: 50px;
 }
 
+/* GAMES SECTION */
+
 .games-content {
     bottom: 11em;
     margin-right: 1em;
 }
+
+/* FEATURES SECTION */
 
 .section-features {
     background-image: url(./assets/features.jpg);
@@ -315,6 +327,8 @@ img {
 .features-list {
   margin-top: 40px;
 }
+
+/* REQUIREMENTS SECTION */
 
 .section-requirements {
     background-image: url(./assets/requirements.png);
@@ -341,6 +355,8 @@ img {
     margin-left: 4em;
     width: 50%;
 }
+
+/* TOPSCORE SECTION */
 
 .section-topscore {
     background-color: #000;
@@ -447,3 +463,5 @@ img {
   .team-boxed .social a:hover {
     opacity:1;
   }  
+
+  /* END OF CSS */
